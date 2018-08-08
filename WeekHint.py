@@ -1,13 +1,15 @@
 import tkinter,threading
 from datetime import datetime
 import tkinter.font as tkFont
+top='1800'
+left='960'
 ww='50'
 hh='20'
 root = tkinter.Tk()
 root.overrideredirect(True)
 root.attributes('-alpha', 0.6)
 root.attributes('-topmost',1)
-root.geometry(ww+'x'+hh+'+400+400')
+root.geometry(ww+'x'+hh+'+'+top+'+'+left)
 ftlbl = tkFont.Font(family='fixedsys', size= 18)
 tmlbl = tkinter.Label(root,width=200,fg = '#FFFAFA',bg = 'black',text = 'Hello',anchor='center',font=ftlbl)
 tmlbl.pack()
