@@ -1,8 +1,8 @@
 import tkinter,threading
 from datetime import datetime
 import tkinter.font as tkFont
-top='1800'
-left='960'
+top='400'
+left='400'
 ww='50'
 hh='20'
 root = tkinter.Tk()
